@@ -5,9 +5,7 @@ import {
    Channel, 
    Navbar, 
    VideoDetail,
-   Search} from '../'
-
-import './style.css';
+   } from '../'
 
 const App = () => {
   return (
@@ -17,7 +15,6 @@ const App = () => {
         <Route path='/' element={<Main/>}/>
         <Route path='/channel/:id' element={<Channel/>}/>
         <Route path = '/videoDetail/:id' element={<VideoDetail/>}/>
-        <Route path = '/search/:id' element={<Search/>}/>
       </Routes>
     </Box>
   )

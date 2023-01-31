@@ -7,7 +7,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.search-bar {
+.search-input {
     outline: none;
     border: none;
     width: 450px;
@@ -32,14 +32,22 @@
     text-align: center;
     transition: all 0.3s ease;
 }
-.category-btn:hover {
-    background-color: #76323f !important;
+.category-btn:hover{
+    background-color: #76323f;
+    color: #fff;
+    opacity: 0.85;
+}
+
+/* .category-btn.active {
+    background-color: #76323f;
+    color: #fff;
+} */
+
+.category-btn:hover span:nth-child(1) {
     color: #fff;
 }
 
-.category-btn:hover span {
-    color: #fff !important;
-}
+
 
 /*-------------SCROLL BAR STYLES----------------*/
 
