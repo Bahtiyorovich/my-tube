@@ -5,6 +5,7 @@ import {
    Channel, 
    Navbar, 
    VideoDetail,
+   Search,
    } from '../'
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
         <Route path='/' element={<Main/>}/>
         <Route path='/channel/:id' element={<Channel/>}/>
         <Route path = '/videoDetail/:id' element={<VideoDetail/>}/>
+        <Route path='/search/:id' element={<Search/>}/>
       </Routes>
     </Box>
   )
