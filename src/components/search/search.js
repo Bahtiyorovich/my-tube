@@ -3,6 +3,8 @@ import { Box, Typography, Container } from '@mui/material'
 import {useState, useEffect} from 'react'
 import { ApiService } from './../../service/api.service';
 import { colors } from '../../constants/colors';
+import { Videos } from '../'
+
 
 const Search = () => {
 
@@ -28,6 +30,7 @@ const Search = () => {
             <Typography variant='h4' fontWeight={'bold'} mb={2}>
                 Search Results for <span style={{color: colors.secondary}}>{id}</span> videos
             </Typography>
+            <Videos videos={videos}/>
         </Container>
     </Box>
   )
