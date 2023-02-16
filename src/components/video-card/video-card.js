@@ -2,10 +2,12 @@ import { Stack, Card, CardContent, CardMedia, Typography, Avatar } from '@mui/ma
 import { colors } from '../../constants/colors'
 import moment from 'moment'
 import { CheckCircle } from '@mui/icons-material';
+import { Link } from 'react-router-dom';
 
 const VideoCard = ({ video }) => {
   return (
     <Card sx={{width:{xs:'100%', sm:'360px', md:'320px'}, boxShadow: 'none', borderRadius: 0}}>
+        <Link to={`/video/${video.id.videoId}`}/>
         <CardMedia 
           image={video?.snippet?.thumbnails?.high?.url}
           alt={video?.snippet?.title} 
