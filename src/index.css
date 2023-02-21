@@ -14,6 +14,11 @@
     font-size: 16px;
 }
 
+.react-player {
+    height: 77vh !important;
+    width: 100% !important;
+}
+
 @media (max-width: 400px) {
     .search-input {
         width: 200px;
@@ -23,6 +28,10 @@
 @media  (max-width: 706px) {
     .search-input {
         width: 220px;
+    }
+
+    .react-player {
+        height: 45vh !important;
     }
 }
 
