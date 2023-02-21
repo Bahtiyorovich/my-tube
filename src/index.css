@@ -60,7 +60,10 @@
 }
 
 
-
+a {
+    text-decoration: none;
+    color:black;
+}
 /*-------------SCROLL BAR STYLES----------------*/
 
 ::-webkit-scrollbar {
